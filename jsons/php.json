@@ -1,0 +1,385 @@
+{
+    "title": "PHP",
+    "q": {
+        "1": {
+            "question": "What is PHP programming language?",
+            "choices": [
+                "Personal Home Page",
+                "PHP: Hypertext Preprocessor",
+                "PHP: Hyperlinks and Preprocessing"
+            ],
+            "answer": "PHP: Hypertext Preprocessor",
+            "points": 1
+        },
+        "2": {
+            "question": "What is the default file for PHP code?",
+            "choices": [
+                "index.html",
+                "code.php",
+                "index.php"
+            ],
+            "answer": "index.php",
+            "points": 2
+        },
+        "3": {
+            "question": "How are lines commented in PHP?",
+            "choices": [
+                "// This is a comment",
+                "# This is a comment",
+                "/* This is a comment */"
+            ],
+            "answer": "// This is a comment",
+            "points": 1
+        },
+        "4": {
+            "question": "Which function is used to display text on a web page in PHP?",
+            "choices": [
+                "echo",
+                "display",
+                "print"
+            ],
+            "answer": "echo",
+            "points": 1
+        },
+        "5": {
+            "question": "Which function is used to slice strings in PHP?",
+            "choices": [
+                "substr()",
+                "cut()",
+                "slice()"
+            ],
+            "answer": "substr()",
+            "points": 2
+        },
+        "6": {
+            "question": "What is the function used to generate random numbers in PHP?",
+            "choices": [
+                "rand()",
+                "random()",
+                "generate()"
+            ],
+            "answer": "rand()",
+            "points": 2
+        },
+        "7": {
+            "question": "What is the operator used to concatenate strings in PHP?",
+            "choices": [
+                ".",
+                "+",
+                ","
+            ],
+            "answer": ".",
+            "points": 1
+        },
+        "8": {
+            "question": "Which function is used to check if certain variables are defined in PHP?",
+            "choices": [
+                "isset()",
+                "defined()",
+                "exist()"
+            ],
+            "answer": "isset()",
+            "points": 2
+        },
+        "9": {
+            "question": "Which function is used to split a string into an array in PHP?",
+            "choices": [
+                "explode()",
+                "split()",
+                "separate()"
+            ],
+            "answer": "explode()",
+            "points": 1
+        },
+        "10": {
+            "question": "Which function is used to convert text to uppercase in PHP?",
+            "choices": [
+                "strtoupper()",
+                "uppercase()",
+                "toupper()"
+            ],
+            "answer": "strtoupper()",
+            "points": 1
+        },
+        "11": {
+            "question": "Which function is used to convert text to lowercase in PHP?",
+            "choices": [
+                "strtolower()",
+                "lowercase()",
+                "tolower()"
+            ],
+            "answer": "strtolower()",
+            "points": 1
+        },
+        "12": {
+            "question": "What is the function used to check if a substring is present in another string in PHP?",
+            "choices": [
+                "strpos()",
+                "search()",
+                "find()"
+            ],
+            "answer": "strpos()",
+            "points": 3
+        },
+        "13": {
+            "question": "Which function is used to convert a value to a specific type in PHP?",
+            "choices": [
+                "(type)",
+                "convert()",
+                "settype()"
+            ],
+            "answer": "settype()",
+            "points": 2
+        },
+        "14": {
+            "question": "What is the variable used to store information about uploaded files in PHP?",
+            "choices": [
+                "$_FILE",
+                "$_UPLOAD",
+                "$_FILES"
+            ],
+            "answer": "$_FILES",
+            "points": 3
+        },
+        "15": {
+            "question": "What must be done in PHP to use a variable inside a function?",
+            "choices": [
+                "Pass it as a parameter to the function",
+                "Define it as a global variable",
+                "Specify the variable type"
+            ],
+            "answer": "Pass it as a parameter to the function",
+            "points": 3
+        },
+        "16": {
+            "question": "Which function is used to remove trailing whitespace from the end of a string in PHP?",
+            "choices": [
+                "rtrim()",
+                "trim()",
+                "erase()"
+            ],
+            "answer": "rtrim()",
+            "points": 2
+        },
+        "17": {
+            "question": "What is the purpose of PHP?",
+            "choices": [
+                "To create dynamic web pages",
+                "To design databases",
+                "To create mobile apps"
+            ],
+            "answer": "To create dynamic web pages",
+            "points": 1
+        },
+        "18": {
+            "question": "Which symbol is used to denote the start of a PHP code block?",
+            "choices": [
+                "<php>",
+                "<?php>",
+                "<script>"
+            ],
+            "answer": "<?php>",
+            "points": 1
+        },
+        "19": {
+            "question": "What is the default port for PHP?",
+            "choices": [
+                "Port 80",
+                "Port 8080",
+                "Port 443"
+            ],
+            "answer": "Port 80",
+            "points": 2
+        },
+        "20": {
+            "question": "Which function is used to redirect a user to another web page in PHP?",
+            "choices": [
+                "redirect()",
+                "header()",
+                "forward()"
+            ],
+            "answer": "header()",
+            "points": 1
+        },
+        "21": {
+            "question": "What is the superglobal array used to collect form data in PHP?",
+            "choices": [
+                "$_POST",
+                "$_GET",
+                "$_REQUEST"
+            ],
+            "answer": "$_POST",
+            "points": 3
+        },
+        "22": {
+            "question": "Which PHP function is used to read a file?",
+            "choices": [
+                "file_get_contents()",
+                "readfile()",
+                "fread()"
+            ],
+            "answer": "file_get_contents()",
+            "points": 2
+        },
+        "23": {
+            "question": "What is the purpose of the PHP function phpinfo()?",
+            "choices": [
+                "To display PHP error messages",
+                "To retrieve information about PHP configuration",
+                "To encrypt data"
+            ],
+            "answer": "To retrieve information about PHP configuration",
+            "points": 3
+        },
+        "24": {
+            "question": "What is the correct way to comment out multiple lines of code in PHP?",
+            "choices": [
+                "// This is a comment",
+                "# This is a comment",
+                "/* This is a comment */"
+            ],
+            "answer": "/* This is a comment */",
+            "points": 1
+        },
+        "25": {
+            "question": "What does PHP stand for?",
+            "choices": [
+                "PHP: Hypertext Preprocessor",
+                "Personal Home Page",
+                "Preprocessed Hypertext Processor"
+            ],
+            "answer": "PHP: Hypertext Preprocessor",
+            "points": 1
+        },
+        "26": {
+            "question": "Which PHP function is used to delete a file?",
+            "choices": [
+                "delete_file()",
+                "unlink()",
+                "remove_file()"
+            ],
+            "answer": "unlink()",
+            "points": 2
+        },
+        "27": {
+            "question": "Which operator is used for not equal in PHP?",
+            "choices": [
+                "==",
+                "!=",
+                "<>"
+            ],
+            "answer": "!=",
+            "points": 1
+        },
+        "28": {
+            "question": "Which PHP function is used to change the case of the first character of a string to uppercase?",
+            "choices": [
+                "ucfirst()",
+                "upperfirst()",
+                "capitalize()"
+            ],
+            "answer": "ucfirst()",
+            "points": 1
+        },
+        "29": {
+            "question": "Which PHP function is used to get the length of a string?",
+            "choices": [
+                "str_length()",
+                "length()",
+                "strlen()"
+            ],
+            "answer": "strlen()",
+            "points": 1
+        },
+        "30": {
+            "question": "Which PHP function is used to format a number with grouped thousands?",
+            "choices": [
+                "number_format()",
+                "format_number()",
+                "group_number()"
+            ],
+            "answer": "number_format()",
+            "points": 2
+        },
+        "31": {
+            "question": "Which PHP function is used to retrieve the current date and time?",
+            "choices": [
+                "date()",
+                "time()",
+                "datetime()"
+            ],
+            "answer": "date()",
+            "points": 3
+        },
+        "32": {
+            "question": "Which PHP function is used to replace the first occurrence of a string?",
+            "choices": [
+                "str_replace()",
+                "replace()",
+                "substr_replace()"
+            ],
+            "answer": "str_replace()",
+            "points": 2
+        },
+        "33": {
+            "question": "Which PHP function is used to write data to a file?",
+            "choices": [
+                "file_put_contents()",
+                "writefile()",
+                "fwrite()"
+            ],
+            "answer": "file_put_contents()",
+            "points": 3
+        },
+        "34": {
+            "question": "What is the purpose of the PHP function include()?",
+            "choices": [
+                "To execute a file in the same scope",
+                "To include and evaluate a specified file",
+                "To include a CSS file"
+            ],
+            "answer": "To include and evaluate a specified file",
+            "points": 3
+        },
+        "35": {
+            "question": "Which PHP function is used to sort an array in ascending order?",
+            "choices": [
+                "sort()",
+                "ascend()",
+                "order()"
+            ],
+            "answer": "sort()",
+            "points": 1
+        },
+        "36": {
+            "question": "What is the purpose of the PHP function isset()?",
+            "choices": [
+                "To check if a variable is empty",
+                "To check if a variable is set and is not NULL",
+                "To check if a variable exists"
+            ],
+            "answer": "To check if a variable is set and is not NULL",
+            "points": 2
+        },
+        "37": {
+            "question": "Which PHP function is used to retrieve the MIME type of a file?",
+            "choices": [
+                "mime_content_type()",
+                "file_mime_type()",
+                "get_mime_type()"
+            ],
+            "answer": "mime_content_type()",
+            "points": 3
+        },
+        "38": {
+            "question": "What is the purpose of the PHP function sleep()?",
+            "choices": [
+                "To delay execution for a specified number of seconds",
+                "To terminate the script",
+                "To suspend the script"
+            ],
+            "answer": "To delay execution for a specified number of seconds",
+            "points": 1
+        }
+    }
+}

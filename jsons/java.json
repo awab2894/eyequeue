@@ -1,0 +1,206 @@
+{
+    "title": "Java",
+    "q": {
+        "1": {
+            "question": "What is Java?",
+            "choices": [
+                "A coffee brand",
+                "A programming language",
+                "A type of car"
+            ],
+            "answer": "A programming language",
+            "points": 1
+        },
+        "2": {
+            "question": "Who developed Java?",
+            "choices": [
+                "Bill Gates",
+                "James Gosling",
+                "Steve Jobs"
+            ],
+            "answer": "James Gosling",
+            "points": 2
+        },
+        "3": {
+            "question": "What year was Java first released?",
+            "choices": [
+                "1995",
+                "2000",
+                "2010"
+            ],
+            "answer": "1995",
+            "points": 1
+        },
+        "4": {
+            "question": "What is the JVM?",
+            "choices": [
+                "Java Virtual Machine",
+                "Java Visual Model",
+                "Java Variable Modifier"
+            ],
+            "answer": "Java Virtual Machine",
+            "points": 2
+        },
+        "5": {
+            "question": "What is the purpose of the 'public' keyword in Java?",
+            "choices": [
+                "To specify that a method or variable is accessible by other classes",
+                "To declare a variable",
+                "To define a loop"
+            ],
+            "answer": "To specify that a method or variable is accessible by other classes",
+            "points": 1
+        },
+        "6": {
+            "question": "Which keyword is used to define a class in Java?",
+            "choices": [
+                "class",
+                "void",
+                "interface"
+            ],
+            "answer": "class",
+            "points": 1
+        },
+        "7": {
+            "question": "What is inheritance in Java?",
+            "choices": [
+                "The process where one class acquires the properties and behaviors of another class",
+                "The process of creating multiple objects",
+                "The process of defining a subclass"
+            ],
+            "answer": "The process where one class acquires the properties and behaviors of another class",
+            "points": 2
+        },
+        "8": {
+            "question": "What is a constructor in Java?",
+            "choices": [
+                "A method that is called when an object is created",
+                "A keyword used to create objects",
+                "A variable used to store data"
+            ],
+            "answer": "A method that is called when an object is created",
+            "points": 2
+        },
+        "9": {
+            "question": "What is the purpose of the 'static' keyword in Java?",
+            "choices": [
+                "To specify that a method or variable belongs to the class, rather than instances of the class",
+                "To declare a constant",
+                "To specify a condition"
+            ],
+            "answer": "To specify that a method or variable belongs to the class, rather than instances of the class",
+            "points": 2
+        },
+        "10": {
+            "question": "What is the difference between '== ' and '.equals()' in Java?",
+            "choices": [
+                "They are the same",
+                "'==' compares object references, while '.equals()' compares object contents",
+                "'==' compares object contents, while '.equals()' compares object references"
+            ],
+            "answer": "'==' compares object references, while '.equals()' compares object contents",
+            "points": 2
+        },
+                "11": {
+                    "question": "What is polymorphism in Java?",
+                    "choices": [
+                        "The ability of a variable, function or object to take on multiple forms",
+                        "The ability of a class to inherit from multiple classes",
+                        "A type of variable"
+                    ],
+                    "answer": "The ability of a variable, function or object to take on multiple forms",
+                    "points": 3
+                },
+                "12": {
+                    "question": "Which of the following is not a primitive data type in Java?",
+                    "choices": [
+                        "int",
+                        "String",
+                        "float"
+                    ],
+                    "answer": "String",
+                    "points": 2
+                },
+                "13": {
+                    "question": "What is the purpose of the 'super' keyword in Java?",
+                    "choices": [
+                        "To refer to the immediate parent class object",
+                        "To declare a superclass",
+                        "To create a new object"
+                    ],
+                    "answer": "To refer to the immediate parent class object",
+                    "points": 3
+                },
+                "14": {
+                    "question": "What is an abstract class in Java?",
+                    "choices": [
+                        "A class that cannot be instantiated and may contain abstract methods",
+                        "A class that contains only static methods",
+                        "A class that cannot be extended"
+                    ],
+                    "answer": "A class that cannot be instantiated and may contain abstract methods",
+                    "points": 3
+                },
+                "15": {
+                    "question": "What is the purpose of the 'final' keyword in Java?",
+                    "choices": [
+                        "To declare constants",
+                        "To prevent method overriding or inheritance",
+                        "Both of the above"
+                    ],
+                    "answer": "Both of the above",
+                    "points": 3
+                },
+                "16": {
+                    "question": "Which method is used to start a thread in Java?",
+                    "choices": [
+                        "run()",
+                        "execute()",
+                        "start()"
+                    ],
+                    "answer": "start()",
+                    "points": 2
+                },
+                "17": {
+                    "question": "What is exception handling in Java?",
+                    "choices": [
+                        "A mechanism to handle runtime errors",
+                        "A way to optimize code",
+                        "A method to declare variables"
+                    ],
+                    "answer": "A mechanism to handle runtime errors",
+                    "points": 2
+                },
+                "18": {
+                    "question": "What is the purpose of the 'try' block in Java?",
+                    "choices": [
+                        "To write code that might throw an exception",
+                        "To declare a variable",
+                        "To define a loop"
+                    ],
+                    "answer": "To write code that might throw an exception",
+                    "points": 2
+                },
+                "19": {
+                    "question": "What is the difference between 'throw' and 'throws' in Java?",
+                    "choices": [
+                        "'throw' is used to explicitly throw an exception, while 'throws' is used in method declarations",
+                        "'throw' is used in method declarations, while 'throws' is used to explicitly throw an exception",
+                        "There is no difference"
+                    ],
+                    "answer": "'throw' is used to explicitly throw an exception, while 'throws' is used in method declarations",
+                    "points": 3
+                },
+                "20": {
+                    "question": "Which of the following is a checked exception in Java?",
+                    "choices": [
+                        "IOException",
+                        "NullPointerException",
+                        "ArrayIndexOutOfBoundsException"
+                    ],
+                    "answer": "IOException",
+                    "points": 3
+                }
+            }
+        }
+    
