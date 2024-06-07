@@ -1,0 +1,35 @@
+<!DOCTYPE svg>
+<svg id="player"  viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+   
+   <path
+    fill="none" stroke="#def"
+    stroke-width="4"
+    
+    d='M 2 2 l 21 0 l 0 21 l -21 0 l 0 -23'
+   /> 
+   <circle
+      fill='none' stroke='#def'
+      stroke-width='2'
+      cy='9.75' cx='9.75'
+      r='1'
+   />
+   <circle
+      fill='none' stroke='#def'
+      stroke-width='2'
+      cy='15.25' cx='9.75'
+      r='1'
+   />
+   <circle
+      fill='none' stroke='#def'
+      stroke-width='2'
+      cy='9.75' cx='15.25'
+      r='1'
+   />
+   <circle
+      fill='none' stroke='#def'
+      stroke-width='2'
+      cy='15.25' cx='15.25'
+      r='1'
+   />
+
+</svg>
