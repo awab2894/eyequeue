@@ -180,7 +180,7 @@ function loadQuestion(cur, questions, title, text, choices, choice1, choice2, ch
 function ShowResultCard(percentage, details, testTitle) {
     document.getElementById('main').innerHTML = `
     <h2 class="test-title">${testTitle} Test Result</h2>
-    <div id="card" class="card bg-dark border-5" style="width: 75%; min-width: 130px; ">
+    <div id="card" class="card bg-dark border-5" style="width: 75%; min-width: 130px; max-height: 75%;">
         <div class="card-body w-100">
           <h5 class="card-title text-light">You have finished the test</h5>
           <p class="card-text text-light">Your percentage  ${percentage}%</p>
