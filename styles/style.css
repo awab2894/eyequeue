@@ -6,12 +6,11 @@
 body,
 section{
     width: 100%;
-    min-height: 100vh;
-    height: fit-content;
     background: linear-gradient(-90deg, #023973, #196dc1);
 }
 section{
     display: flex;
+    min-height: 100vh;
     flex-direction: column;
     justify-content: start;
     align-items: center;
