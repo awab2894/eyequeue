@@ -10,7 +10,7 @@ section{
 }
 section{
     display: flex;
-    height: calc(60vh - 120px);
+    height: calc(100vh - 110px);
     flex-direction: column;
     justify-content: start;
     align-items: center;
