@@ -1,0 +1,205 @@
+{
+    "title": "MySQL",
+    "q": {
+        "1": {
+            "question": "What is MySQL?",
+            "choices": [
+                "A programming language",
+                "A database management system",
+                "An operating system"
+            ],
+            "answer": "A database management system",
+            "points": 1
+        },
+        "2": {
+            "question": "Who developed MySQL?",
+            "choices": [
+                "Microsoft",
+                "Oracle Corporation",
+                "MySQL AB"
+            ],
+            "answer": "MySQL AB",
+            "points": 2
+        },
+        "3": {
+            "question": "What year was MySQL first released?",
+            "choices": [
+                "1990",
+                "1995",
+                "2000"
+            ],
+            "answer": "1995",
+            "points": 1
+        },
+        "4": {
+            "question": "What is the default port number for MySQL connections?",
+            "choices": [
+                "3306",
+                "5432",
+                "1521"
+            ],
+            "answer": "3306",
+            "points": 1
+        },
+        "5": {
+            "question": "What is the purpose of the 'SELECT' statement in MySQL?",
+            "choices": [
+                "To insert data into a table",
+                "To update data in a table",
+                "To retrieve data from a database"
+            ],
+            "answer": "To retrieve data from a database",
+            "points": 1
+        },
+        "6": {
+            "question": "What is the purpose of the 'WHERE' clause in MySQL?",
+            "choices": [
+                "To specify conditions while retrieving data",
+                "To order the results",
+                "To group the results"
+            ],
+            "answer": "To specify conditions while retrieving data",
+            "points": 2
+        },
+        "7": {
+            "question": "What is a primary key in MySQL?",
+            "choices": [
+                "A unique identifier for a row in a table",
+                "A foreign key in a table",
+                "An index on a table"
+            ],
+            "answer": "A unique identifier for a row in a table",
+            "points": 2
+        },
+        "8": {
+            "question": "What is the purpose of the 'JOIN' keyword in MySQL?",
+            "choices": [
+                "To combine rows from two or more tables",
+                "To create a new table",
+                "To delete rows from a table"
+            ],
+            "answer": "To combine rows from two or more tables",
+            "points": 2
+        },
+        "9": {
+            "question": "What is the purpose of the 'INSERT' statement in MySQL?",
+            "choices": [
+                "To retrieve data from a database",
+                "To update data in a table",
+                "To insert new rows into a table"
+            ],
+            "answer": "To insert new rows into a table",
+            "points": 1
+        },
+        "10": {
+            "question": "What is the purpose of the 'DELETE' statement in MySQL?",
+            "choices": [
+                "To delete rows from a table",
+                "To update data in a table",
+                "To retrieve data from a database"
+            ],
+            "answer": "To delete rows from a table",
+            "points": 1
+        },
+        "11": {
+            "question": "What is a foreign key in MySQL?",
+            "choices": [
+                "A key used to uniquely identify a row in another table",
+                "A key used to encrypt data",
+                "A key used to delete data"
+            ],
+            "answer": "A key used to uniquely identify a row in another table",
+            "points": 2
+        },
+        "12": {
+            "question": "What is the purpose of the 'UPDATE' statement in MySQL?",
+            "choices": [
+                "To modify existing records in a table",
+                "To insert new records into a table",
+                "To delete records from a table"
+            ],
+            "answer": "To modify existing records in a table",
+            "points": 1
+        },
+        "13": {
+            "question": "What is normalization in MySQL?",
+            "choices": [
+                "The process of organizing data to reduce redundancy",
+                "The process of deleting data",
+                "The process of creating indexes"
+            ],
+            "answer": "The process of organizing data to reduce redundancy",
+            "points": 3
+        },
+        "14": {
+            "question": "Which of the following is not a MySQL storage engine?",
+            "choices": [
+                "InnoDB",
+                "MyISAM",
+                "Oracle"
+            ],
+            "answer": "Oracle",
+            "points": 2
+        },
+        "15": {
+            "question": "What is a transaction in MySQL?",
+            "choices": [
+                "A sequence of one or more SQL operations treated as a single unit of work",
+                "A backup of the database",
+                "A command to optimize the database"
+            ],
+            "answer": "A sequence of one or more SQL operations treated as a single unit of work",
+            "points": 3
+        },
+        "16": {
+            "question": "What is the purpose of the 'GROUP BY' clause in MySQL?",
+            "choices": [
+                "To aggregate data across multiple rows",
+                "To filter results",
+                "To join tables"
+            ],
+            "answer": "To aggregate data across multiple rows",
+            "points": 2
+        },
+        "17": {
+            "question": "What is the difference between 'INNER JOIN' and 'OUTER JOIN' in MySQL?",
+            "choices": [
+                "'INNER JOIN' returns rows with matching values in both tables, while 'OUTER JOIN' returns all rows from one table and matched rows from another",
+                "'INNER JOIN' returns all rows from both tables, while 'OUTER JOIN' returns matching rows",
+                "There is no difference"
+            ],
+            "answer": "'INNER JOIN' returns rows with matching values in both tables, while 'OUTER JOIN' returns all rows from one table and matched rows from another",
+            "points": 3
+        },
+        "18": {
+            "question": "What is the purpose of the 'HAVING' clause in MySQL?",
+            "choices": [
+                "To filter groups of rows based on a condition",
+                "To order the results",
+                "To limit the number of rows returned"
+            ],
+            "answer": "To filter groups of rows based on a condition",
+            "points": 3
+        },
+        "19": {
+            "question": "Which command is used to create a new database in MySQL?",
+            "choices": [
+                "CREATE DATABASE",
+                "NEW DATABASE",
+                "MAKE DATABASE"
+            ],
+            "answer": "CREATE DATABASE",
+            "points": 1
+        },
+        "20": {
+            "question": "What is the purpose of the 'LIKE' operator in MySQL?",
+            "choices": [
+                "To search for a specified pattern in a column",
+                "To update data",
+                "To delete data"
+            ],
+            "answer": "To search for a specified pattern in a column",
+            "points": 2
+        }
+    }
+}

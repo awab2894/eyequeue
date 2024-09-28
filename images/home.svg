@@ -1,0 +1,15 @@
+<svg viewBox="32.18585611720149 20.47 223.6851360941233 247.05999999999997" xmlns="http://www.w3.org/2000/svg"
+ width="250" height="250">
+
+    
+<path 
+    d="M20 270 l250 0 l0 -150 l-125 -100 l-125 100" 
+    fill="url(#SVG1)"/>
+
+<linearGradient id="SVG1">
+	<stop  offset="0" style="stop-color:#bdf"/>
+	<stop  offset="1" style="stop-color:#def"/>
+</linearGradient>
+
+
+</svg>

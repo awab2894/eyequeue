@@ -1,0 +1,150 @@
+body{
+    scroll-behavior: unset;
+}
+#side {
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 90px 0 0;
+    width: var(--side-width);
+    height: 100vh;
+    background: #212329;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --main-side-color: #ddf;
+    --side-width: 200px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    z-index: 5;
+    transition: 0.3s;
+}
+
+#side .sideGroup .title {
+    position: relative;
+    left: 0;
+    padding: 5px 10px;
+    color: #0d6efd;
+    font-size: x-large;
+    width: 100%;
+    border-bottom: 1px solid #333;
+}
+
+#side .sideGroup .items {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 15px;
+    height: calc(100vh - 140px);
+    list-style: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#side .sideGroup .items .item {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    width: 100%;
+    padding: 10px 25px;
+    color: var(--main-side-color);
+    cursor: pointer;
+}
+
+#side .sideGroup .items .item:hover {
+    background: #6c757d;
+}
+
+#side .sideGroup .items .item.selected {
+    background: #0d6efd;
+    font-weight: 900;
+    padding: 10px 40px;
+}
+
+#burgerMenu{
+    position: static;
+    left: 20px;
+    top: 50%;
+    width: 30px;
+    height: 25px;
+    display: none;
+    z-index: 15;
+    cursor: pointer;
+}
+
+#burgerMenu .bar {
+    position: absolute;
+    top: 50%;
+    width: 27px;
+    height: 5px;
+    background: #def;
+    transition: 0.3s;
+}
+/* style the bars of the burger menu button*/
+#burgerMenu:hover .bar:nth-child(1) {
+    transform: rotate(0deg) translateY(-9px);
+    width: 30px;
+}
+
+#burgerMenu:hover .bar:nth-child(2) {
+    width: 30px;
+}
+
+#burgerMenu:hover .bar:nth-child(3) {
+    transform: rotate(0deg) translateY(9px);
+    width: 30px;
+}
+/* make the bars interactive with hover */
+#burgerMenu .bar:nth-child(1) {
+    transform: rotate(0deg) translateY(-8px);
+}
+
+#burgerMenu .bar:nth-child(2) {
+    transform: rotate(0deg) translateY(0px);
+}
+
+#burgerMenu .bar:nth-child(3) {
+    transform: rotate(0deg) translateY(8px);
+}
+/* make the bars hidden and show appending to the width of screen */
+#burgerMenu .bar:nth-child(1).clicked {
+    transform: rotate(45deg) translateY(0px);
+}
+
+#burgerMenu .bar:nth-child(2).clicked {
+    width: 0;
+    height: 0;
+}
+
+#burgerMenu .bar:nth-child(3).clicked {
+    transform: rotate(-45deg) translateY(0px);
+}
+
+@media (max-width: 850px) {
+
+    #burgerMenu {
+        display: block;
+    }
+
+    #side {
+        left: calc(-1 * var(--side-width));
+    }
+
+    #side.show {
+        left: 0;
+    }
+
+   section{
+        padding-left: 20px;
+    }
+    .header{
+        justify-content: space-between;
+    }
+    .about-lg{
+        display: none;
+    }
+    .about-sm{
+        display: inline-block;
+    }
+
+}

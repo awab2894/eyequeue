@@ -1,0 +1,305 @@
+{
+    "title": "Python",
+    "q": {
+        "1": {
+            "question": "What is the correct file extension for Python files?",
+            "choices": [
+                ".py",
+                ".python",
+                ".pt"
+            ],
+            "answer": ".py",
+            "points": 1
+        },
+        "2": {
+            "question": "How do you create a variable with the numeric value 5 in Python?",
+            "choices": [
+                "x = 5",
+                "int x = 5",
+                "num x = 5"
+            ],
+            "answer": "x = 5",
+            "points": 1
+        },
+        "3": {
+            "question": "Which of the following is the correct way to create a function in Python?",
+            "choices": [
+                "def myFunction():",
+                "function myFunction():",
+                "create myFunction():"
+            ],
+            "answer": "def myFunction():",
+            "points": 2
+        },
+        "4": {
+            "question": "How do you insert COMMENTS in Python code?",
+            "choices": [
+                "# This is a comment",
+                "// This is a comment",
+                "/* This is a comment */"
+            ],
+            "answer": "# This is a comment",
+            "points": 1
+        },
+        "5": {
+            "question": "Which method can be used to remove any whitespace from both the beginning and the end of a string?",
+            "choices": [
+                "strip()",
+                "trim()",
+                "len()"
+            ],
+            "answer": "strip()",
+            "points": 2
+        },
+        "6": {
+            "question": "Which operator is used to multiply numbers in Python?",
+            "choices": [
+                "*",
+                "x",
+                "mul"
+            ],
+            "answer": "*",
+            "points": 1
+        },
+        "7": {
+            "question": "Which of the following data types is not supported in Python?",
+            "choices": [
+                "tuple",
+                "integer",
+                "character"
+            ],
+            "answer": "character",
+            "points": 2
+        },
+        "8": {
+            "question": "How do you start a while loop in Python?",
+            "choices": [
+                "while x > y:",
+                "while (x > y)",
+                "while {x > y}"
+            ],
+            "answer": "while x > y:",
+            "points": 2
+        },
+        "9": {
+            "question": "How do you start an if statement in Python?",
+            "choices": [
+                "if x > y:",
+                "if (x > y)",
+                "if {x > y}"
+            ],
+            "answer": "if x > y:",
+            "points": 1
+        },
+        "10": {
+            "question": "Which keyword is used to create a class in Python?",
+            "choices": [
+                "class",
+                "myClass",
+                "Class"
+            ],
+            "answer": "class",
+            "points": 2
+        },
+        "11": {
+            "question": "What is the correct syntax to output the type of a variable or object in Python?",
+            "choices": [
+                "print(type(x))",
+                "print(typeof(x))",
+                "print(typeOf(x))"
+            ],
+            "answer": "print(type(x))",
+            "points": 2
+        },
+        "12": {
+            "question": "Which function can be used to read a line of input from the user in Python?",
+            "choices": [
+                "input()",
+                "get()",
+                "scan()"
+            ],
+            "answer": "input()",
+            "points": 1
+        },
+        "13": {
+            "question": "How do you create a dictionary in Python?",
+            "choices": [
+                "mydict = {'name': 'John', 'age': 36}",
+                "mydict = ('name': 'John', 'age': 36)",
+                "mydict = ['name': 'John', 'age': 36]"
+            ],
+            "answer": "mydict = {'name': 'John', 'age': 36}",
+            "points": 2
+        },
+        "14": {
+            "question": "Which method is used to return a list of all the keys in a dictionary?",
+            "choices": [
+                "keys()",
+                "getKeys()",
+                "listkeys()"
+            ],
+            "answer": "keys()",
+            "points": 2
+        },
+        "15": {
+            "question": "How do you create a tuple in Python?",
+            "choices": [
+                "mytuple = ('apple', 'banana', 'cherry')",
+                "mytuple = ['apple', 'banana', 'cherry']",
+                "mytuple = {'apple', 'banana', 'cherry'}"
+            ],
+            "answer": "mytuple = ('apple', 'banana', 'cherry')",
+            "points": 2
+        },
+        "16": {
+            "question": "Which method is used to add an element at the end of a list?",
+            "choices": [
+                "append()",
+                "add()",
+                "insert()"
+            ],
+            "answer": "append()",
+            "points": 1
+        },
+        "17": {
+            "question": "What is the correct way to call a function named myFunction?",
+            "choices": [
+                "myFunction()",
+                "call myFunction()",
+                "call function myFunction()"
+            ],
+            "answer": "myFunction()",
+            "points": 1
+        },
+        "18": {
+            "question": "Which of the following statements is correct to create an empty set?",
+            "choices": [
+                "myset = set()",
+                "myset = {}",
+                "myset = []"
+            ],
+            "answer": "myset = set()",
+            "points": 3
+        },
+        "19": {
+            "question": "How do you create a list in Python?",
+            "choices": [
+                "mylist = ['apple', 'banana', 'cherry']",
+                "mylist = ('apple', 'banana', 'cherry')",
+                "mylist = {'apple', 'banana', 'cherry'}"
+            ],
+            "answer": "mylist = ['apple', 'banana', 'cherry']",
+            "points": 1
+        },
+        "20": {
+            "question": "Which of the following methods can be used to return a string in upper case letters?",
+            "choices": [
+                "upper()",
+                "uppercase()",
+                "toUpperCase()"
+            ],
+            "answer": "upper()",
+            "points": 1
+        },
+        "21": {
+            "question": "Which of the following is a correct syntax to import a module named 'math'?",
+            "choices": [
+                "import math",
+                "math = import()",
+                "import.math()"
+            ],
+            "answer": "import math",
+            "points": 2
+        },
+        "22": {
+            "question": "How do you create a set in Python?",
+            "choices": [
+                "myset = {'apple', 'banana', 'cherry'}",
+                "myset = ['apple', 'banana', 'cherry']",
+                "myset = ('apple', 'banana', 'cherry')"
+            ],
+            "answer": "myset = {'apple', 'banana', 'cherry'}",
+            "points": 2
+        },
+        "23": {
+            "question": "Which statement is used to stop a loop?",
+            "choices": [
+                "break",
+                "stop",
+                "exit"
+            ],
+            "answer": "break",
+            "points": 1
+        },
+        "24": {
+            "question": "Which statement is used to continue to the next iteration of a loop?",
+            "choices": [
+                "continue",
+                "next",
+                "skip"
+            ],
+            "answer": "continue",
+            "points": 2
+        },
+        "25": {
+            "question": "What is the output of: print(2 ** 3)",
+            "choices": [
+                "8",
+                "6",
+                "9"
+            ],
+            "answer": "8",
+            "points": 2
+        },
+        "26": {
+            "question": "How do you start a for loop in Python?",
+            "choices": [
+                "for x in y:",
+                "for (x in y)",
+                "for each x in y:"
+            ],
+            "answer": "for x in y:",
+            "points": 1
+        },
+        "27": {
+            "question": "What is the correct syntax to return the first character in a string?",
+            "choices": [
+                "x[0]",
+                "x[1]",
+                "x[start]"
+            ],
+            "answer": "x[0]",
+            "points": 2
+        },
+        "28": {
+            "question": "How do you check the length of a list in Python?",
+            "choices": [
+                "len(list)",
+                "count(list)",
+                "length(list)"
+            ],
+            "answer": "len(list)",
+            "points": 1
+        },
+        "29": {
+            "question": "Which keyword is used to create an exception handling block in Python?",
+            "choices": [
+                "try",
+                "catch",
+                "except"
+            ],
+            "answer": "try",
+            "points": 3
+        },
+        "30": {
+            "question": "How do you handle exceptions in Python?",
+            "choices": [
+                "try/except",
+                "catch/throw",
+                "handle/error"
+            ],
+            "answer": "try/except",
+            "points": 3
+        }
+    }
+}

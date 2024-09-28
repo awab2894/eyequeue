@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body,
+section{
+    width: 100%;
+    min-height: 100vh;
+    height: fit-content;
+    background: linear-gradient(-90deg, #023973, #196dc1);
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    overflow-y: auto;
+    height: calc(100vh - 90px);
+    padding: 120px 20px 10px 220px;
+}
+
+.homeTitle{
+    cursor: default;
+}
+
+#main .test-title {
+    color: #def;
+    font-family: fantasy;
+    font-size: 35px;
+    text-shadow: 0 0 6px #000;
+}
+
+
+div.btn {
+    text-align: start;
+    border-radius: 0;
+}
+
+.cb {
+    display: flex;
+    justify-content: end;
+}
+
+.disp-none {
+    display: none;
+}
+
+.choice {
+    display: none;
+}
+
+.not-available {
+    display: none;
+}
+
+.available {
+    display: inline-block;
+}
+
+::-webkit-scrollbar {
+    position: absolute;
+    background-color: transparent;
+    width: 4px;
+    border-radius: 50px;
+}
+
+:hover::-webkit-scrollbar {
+    width: 7px;
+    border-radius: 50px;
+}
+
+/*--------------------------------- Scrollbar -------------------------*/
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #06f;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #05f;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #04d;
+}
+
+/*--------------*/
+
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadingCircle,
+.errorIcon {
+    --dem: 30%;
+    width: var(--dem);
+    height: var(--dem);
+}
+
+.loadingCircle {
+    animation: loading 0.7s linear infinite;
+}
+
+@keyframes loading {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+section::-webkit-scrollbar {
+    position: absolute;
+    background-color: transparent;
+    width: 7px;
+    border-radius: 50px;
+}
+section::-webkit-scrollbar-button {
+    display: none;
+}
+
+section::-webkit-scrollbar-thumb {
+    background: #0d6efd;
+    border-radius: 50px;
+}
+
+
+.about-lg{
+    display: inline-block;
+}
+.about-sm{
+    display: none;
+}

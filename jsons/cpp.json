@@ -1,0 +1,198 @@
+{
+    "title": "C++",
+    "q": {
+    "1": {
+      "question": "What is the data type used to store integers in C++?",
+      "choices": ["float", "char", "int"],
+      "answer": "int",
+      "points": 1
+    },
+    "2": {
+      "question": "What is the correct result of the following expression: 5 + 3 * 2?",
+      "choices": ["10", "11", "13"],
+      "answer": "11",
+      "points": 2
+    },
+    "3": {
+      "question": "Which of the following is used to define a function in C++?",
+      "choices": ["def", "void", "function"],
+      "answer": "void",
+      "points": 1
+    },
+    "4": {
+      "question": "What is the keyword used to create an object of a class in C++?",
+      "choices": ["new", "create", "class"],
+      "answer": "new",
+      "points": 2
+    },
+    "5": {
+      "question": "What is the keyword used to define a constant variable in C++?",
+      "choices": ["constant", "const", "final"],
+      "answer": "const",
+      "points": 1
+    },
+    "6": {
+      "question": "Which of the following is the name of the header file that contains standard input-output definitions in C++?",
+      "choices": ["stdio.h", "iostream", "conio.h"],
+      "answer": "iostream",
+      "points": 1
+    },
+    "7": {
+      "question": "What is the output of the following program?\n\n#include <iostream>\nusing namespace std;\nint main() {\nint x = 10;\ncout << ++x;\nreturn 0;\n}",
+      "choices": ["10", "11", "12"],
+      "answer": "11",
+      "points": 2
+    },
+    "8": {
+      "question": "What is the difference between the expressions ++x and x++?",
+      "choices": ["++x before, x++ after", "x++ before, ++x after", "No difference"],
+      "answer": "++x before, x++ after",
+      "points": 3
+    },
+    "9": {
+      "question": "Which of the following is used to create a for loop in C++?",
+      "choices": ["for (int i = 0; i < n; i++)", "loop (int i = 0; i < n; i++)", "while (int i = 0; i < n; i++)"],
+      "answer": "for (int i = 0; i < n; i++)",
+      "points": 1
+    },
+    "10": {
+      "question": "What is the expected output of the following program?\n\n#include <iostream>\nusing namespace std;\nvoid func(int &x) {\nx = x + 10;\n}\nint main() {\nint y = 5;\nfunc(y);\ncout << y;\nreturn 0;\n}",
+      "choices": ["5", "10", "15"],
+      "answer": "15",
+      "points": 3
+    },
+    "11": {
+      "question": "Which of the following is not a valid variable name in C++?",
+      "choices": ["myVar", "2ndVar", "_myVar"],
+      "answer": "2ndVar",
+      "points": 1
+    },
+    "12": {
+      "question": "Which of the following is a looping structure in C++?",
+      "choices": ["if", "while", "switch"],
+      "answer": "while",
+      "points": 1
+    },
+    "13": {
+      "question": "What will be the output of the following code?\n\n#include <iostream>\nusing namespace std;\nint main() {\nint x = 5;\nint y = x++;\ncout << y;\nreturn 0;\n}",
+      "choices": ["4", "5", "6"],
+      "answer": "5",
+      "points": 2
+    },
+    "14": {
+      "question": "Which of the following is a character data type in C++?",
+      "choices": ["char", "int", "bool"],
+      "answer": "char",
+      "points": 1
+    },
+    "15": {
+      "question": "How do you start the main function in C++?",
+      "choices": ["main()", "void main()", "int main()"],
+      "answer": "int main()",
+      "points": 1
+    },
+    "16": {
+      "question": "Which operator is used to access members of a structure?",
+      "choices": [".", "->", "*"],
+      "answer": ".",
+      "points": 2
+    },
+    "17": {
+      "question": "What is the result of 10 % 3 in C++?",
+      "choices": ["1", "2", "3"],
+      "answer": "1",
+      "points": 2
+    },
+    "18": {
+      "question": "Which of the following keywords is used to define an abstract class?",
+      "choices": ["virtual", "abstract", "interface"],
+      "answer": "virtual",
+      "points": 3
+    },
+    "19": {
+      "question": "Which function is used to get the length of a string in C++?",
+      "choices": ["length()", "size()", "strlen()"],
+      "answer": "length()",
+      "points": 2
+    },
+    "20": {
+      "question": "Which keyword is used to return a value from a function?",
+      "choices": ["return", "break", "continue"],
+      "answer": "return",
+      "points": 1
+    },
+    "21": {
+      "question": "What is the output of the following code?\n\n#include <iostream>\nusing namespace std;\nvoid func(int a) {\na = a + 5;\n}\nint main() {\nint b = 3;\nfunc(b);\ncout << b;\nreturn 0;\n}",
+      "choices": ["3", "5", "8"],
+      "answer": "3",
+      "points": 2
+    },
+    "22": {
+      "question": "Which keyword is used to inherit a class?",
+      "choices": ["inherits", "extends", "public"],
+      "answer": "public",
+      "points": 2
+    },
+    "23": {
+      "question": "Which of the following is a valid comment in C++?",
+      "choices": ["// comment", "# comment", "/* comment"],
+      "answer": "// comment",
+      "points": 1
+    },
+    "24": {
+      "question": "Which header file is required for file operations?",
+      "choices": ["<iostream>", "<fstream>", "<string>"],
+      "answer": "<fstream>",
+      "points": 2
+    },
+    "25": {
+      "question": "Which keyword is used to prevent inheritance?",
+      "choices": ["stop", "halt", "final"],
+      "answer": "final",
+      "points": 3
+    },
+    "26": {
+      "question": "What is the value of a after the following code?\n\nint a = 10;\na += 5;",
+      "choices": ["10", "15", "20"],
+      "answer": "15",
+      "points": 1
+    },
+    "27": {
+      "question": "What does the keyword 'this' refer to in C++?",
+      "choices": ["A global variable", "A local variable", "The current object"],
+      "answer": "The current object",
+      "points": 2
+    },
+    "28": {
+      "question": "What is the correct syntax to create a pointer?",
+      "choices": ["int p*", "int *p", "int &p"],
+      "answer": "int *p",
+      "points": 2
+    },
+    "29": {
+      "question": "Which of the following is a correct way to allocate dynamic memory?",
+      "choices": ["int *p = new int;", "int p = new int;", "int *p = malloc(sizeof(int));"],
+      "answer": "int *p = new int;",
+      "points": 3
+    },
+    "30": {
+      "question": "What does 'nullptr' represent in C++?",
+      "choices": ["A null pointer", "A null character", "A null integer"],
+      "answer": "A null pointer",
+      "points": 1
+    },
+    "31": {
+      "question": "Which of the following is not a fundamental data type in C++?",
+      "choices": ["float", "int", "string"],
+      "answer": "string",
+      "points": 1
+    },
+    "32": {
+      "question": "Which operator is used for bitwise AND?",
+      "choices": ["&", "|", "^"],
+      "answer": "&",
+      "points": 2
+    }
+    
+}
+}

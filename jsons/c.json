@@ -1,0 +1,187 @@
+{
+    "title": "C",
+    "q":
+    
+    {
+  "1": {
+    "question": "What is C programming language?",
+    "choices": ["Computer", "Common", "Compiler"],
+    "answer": "Compiler",
+    "points": 2
+  },
+  "2": {
+    "question": "Who developed the C programming language?",
+    "choices": ["Dennis Ritchie", "Bill Gates", "Steve Jobs"],
+    "answer": "Dennis Ritchie",
+    "points": 2
+  },
+  "3": {
+    "question": "What year was the C programming language developed?",
+    "choices": ["1965", "1972", "1985"],
+    "answer": "1972",
+    "points": 1
+  },
+  "4": {
+    "question": "Which of the following is a correct syntax for declaring a variable in C?",
+    "choices": ["variable x;", "x = variable;", "int x;"],
+    "answer": "int x;",
+    "points": 1
+  },
+  "5": {
+    "question": "What is the symbol used for comments in C?",
+    "choices": ["#", "//", "/* */"],
+    "answer": "//",
+    "points": 1
+  },
+  "6": {
+    "question": "Which function is used to print output in C?",
+    "choices": ["console.log()", "printf()", "print()"],
+    "answer": "printf()",
+    "points": 1
+  },
+  "7": {
+    "question": "What is the main function in a C program?",
+    "choices": ["entry point of the program", "library function", "subroutine"],
+    "answer": "entry point of the program",
+    "points": 2
+  },
+  "8": {
+    "question": "Which operator is used for multiplication in C?",
+    "choices": ["*", "x", "mul"],
+    "answer": "*",
+    "points": 1
+  },
+  "9": {
+    "question": "What is the correct way to include a header file in C?",
+    "choices": ["#include <stdio.h>", "include <stdio.h>", "import <stdio.h>"],
+    "answer": "#include <stdio.h>",
+    "points": 1
+  },
+  "10": {
+    "question": "What is the purpose of the 'return' statement in C?",
+    "choices": ["To exit the program", "To return a value from a function", "To print a value"],
+    "answer": "To return a value from a function",
+    "points": 2
+  },
+  "11": {
+    "question": "Which function is used to get user input in C?",
+    "choices": ["input()", "getchar()", "scanf()"],
+    "answer": "scanf()",
+    "points": 2
+  },
+  "12": {
+    "question": "What is the purpose of the 'sizeof' operator in C?",
+    "choices": ["To determine the size of a variable or type", "To calculate the size of a file", "To check if a variable exists"],
+    "answer": "To determine the size of a variable or type",
+    "points": 2
+  },
+  "13": {
+    "question": "Which data type is used to store floating-point numbers in C?",
+    "choices": ["float", "int", "char"],
+    "answer": "float",
+    "points": 1
+  },
+  "14": {
+    "question": "What is the purpose of the 'break' statement in C?",
+    "choices": ["To exit a loop", "To skip the next iteration of a loop", "To continue to the next iteration of a loop"],
+    "answer": "To exit a loop",
+    "points": 1
+  },
+  "15": {
+    "question": "Which operator is used for division in C?",
+    "choices": ["/", "\\", "%"],
+    "answer": "/",
+    "points": 1
+  },
+  "16": {
+    "question": "What is the purpose of the 'if' statement in C?",
+    "choices": ["To define a loop", "To execute a block of code conditionally", "To declare a variable"],
+    "answer": "To execute a block of code conditionally",
+    "points": 2
+  },
+  "17": {
+    "question": "What is the purpose of the 'else' statement in C?",
+    "choices": ["To execute a block of code if a condition is true", "To execute a block of code if a condition is false", "To define a loop"],
+    "answer": "To execute a block of code if a condition is false",
+    "points": 2
+  },
+  "18": {
+    "question": "What is the purpose of the 'while' loop in C?",
+    "choices": ["To execute a block of code while a condition is true", "To execute a block of code a specific number of times", "To define a function"],
+    "answer": "To execute a block of code while a condition is true",
+    "points": 2
+  },
+  "19": {
+    "question": "Which data type is used to store characters in C?",
+    "choices": ["char", "int", "string"],
+    "answer": "char",
+    "points": 1
+  },
+  "20": {
+    "question": "What is the purpose of the 'for' loop in C?",
+    "choices": ["To execute a block of code a specific number of times", "To execute a block of code while a condition is true", "To define a function"],
+    "answer": "To execute a block of code a specific number of times",
+    "points": 2
+  },
+  "21": {
+    "question": "Which operator is used for addition in C?",
+    "choices": ["+", "-", "*"],
+    "answer": "+",
+    "points": 1
+  },
+  "22": {
+    "question": "What is the purpose of the 'do-while' loop in C?",
+    "choices": ["To execute a block of code a specific number of times", "To execute a block of code while a condition is true", "To ensure that a block of code is executed at least once"],
+    "answer": "To ensure that a block of code is executed at least once",
+    "points": 2
+  },
+  "23": {
+    "question": "What is the purpose of the 'continue' statement in C?",
+    "choices": ["To exit a loop", "To skip the rest of the code in a loop and jump to the next iteration", "To execute a block of code conditionally"],
+    "answer": "To skip the rest of the code in a loop and jump to the next iteration",
+    "points": 2
+  },
+  "24": {
+    "question": "Which function is used to compare two strings in C?",
+    "choices": ["strcmp()", "compare()", "equals()"],
+    "answer": "strcmp()",
+    "points": 2
+  },
+  "25": {
+    "question": "What is the purpose of the 'switch' statement in C?",
+    "choices": ["To execute a block of code conditionally", "To define a loop", "To declare a variable"],
+    "answer": "To execute a block of code conditionally",
+    "points": 2
+  },
+  "26": {
+    "question": "Which function is used to find the length of a string in C?",
+    "choices": ["strlen()", "length()", "strlength()"],
+    "answer": "strlen()",
+    "points": 2
+  },
+  "27": {
+    "question": "What is the purpose of the 'void' keyword in C?",
+    "choices": ["To define a variable", "To specify that a function does not return a value", "To declare a constant"],
+    "answer": "To specify that a function does not return a value",
+    "points": 2
+  },
+  "28": {
+    "question": "Which operator is used for assignment in C?",
+    "choices": ["=", "==", ":="],
+    "answer": "=",
+    "points": 1
+  },
+  "29": {
+    "question": "What is the purpose of the 'const' keyword in C?",
+    "choices": ["To define a constant", "To declare a variable", "To specify a condition"],
+    "answer": "To define a constant",
+    "points": 1
+  },
+  "30": {
+    "question": "Which data type is used to store whole numbers in C?",
+    "choices": ["int", "float", "char"],
+    "answer": "int",
+    "points": 1
+  }
+}
+}

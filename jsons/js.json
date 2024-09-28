@@ -1,0 +1,566 @@
+{
+    "title": "JavaScript",
+
+    "q": {
+        "1": {
+            "question": "How many keywords can declare variables in JavaScript ?",
+            "choices": [
+                "4 keywords",
+                "3 keywords",
+                "7 keywords"
+            ],
+            "answer": "3 keywords",
+            "points": 1
+        },
+        "2": {
+            "question": "JavaScript's varibales are____typing .",
+            "choices": [
+                "Static",
+                "Script",
+                "Dynamic"
+            ],
+            "answer": "Dynamic",
+            "points": 2
+        },
+        "3": {
+            "question": "JavaScript is scripting language, true or false?",
+            "choices": [
+                "true",
+                "false",
+                null
+            ],
+            "answer": "true",
+            "points": 1
+        },
+        "4": {
+            "question": "Which of the following is low level language ?",
+            "choices": [
+                "Laravel",
+                "Jvascript",
+                "Rust"
+            ],
+            "answer": "Rust",
+            "points": 1
+        },
+        "5": {
+            "question": "JavaScript code is a synchorounos. true or false?",
+            "choices": [
+                "true",
+                "false",
+                null
+            ],
+            "answer": "false",
+            "points": 2
+        },
+        "6": {
+            "question": "What the meaning of full-stack developer ?",
+            "choices": [
+                "Who is niether good in front-end or back-end",
+                "Front-end and back-end developer",
+                "Who is not good in front-end"
+            ],
+            "answer": "Front-end and back-end developer",
+            "points": 3
+        },
+        "7": {
+            "question": "JavaScript is used to develope____",
+            "choices": [
+                "Web / Mobile Apps",
+                "Games / Real-time networking apps",
+                "It's all true"
+            ],
+            "answer": "It's all true",
+            "points": 3
+        },
+        "8": {
+            "question": "The name of JavaScript Engine in firefox is____",
+            "choices": [
+                "SpiderMonkey",
+                "ECMScript",
+                "V8"
+            ],
+            "answer": "SpiderMonkey",
+            "points": 3
+        },
+        "9": {
+            "question": "To print values in JavaScript, you use____",
+            "choices": [
+                "console.echo()",
+                "console.print()",
+                "console.log()"
+            ],
+            "answer": "console.log()",
+            "points": 2
+        },
+        "10": {
+            "question": "Laravel is a framework for Jvascript. true or false?",
+            "choices": [
+                "true",
+                "false",
+                null
+            ],
+            "answer": "false",
+            "points": 1
+        },
+        "11": {
+            "question": "What is the output of console.log(10 + 2 + '20' + 3)?",
+            "choices": [
+                "102203",
+                "12203",
+                "25"
+            ],
+            "answer": "12203",
+            "points": 1
+        },
+        "12": {
+            "question": "Which method can be used to convert JavaScript object to JSON data?",
+            "choices": [
+                "json()",
+                "stringify()",
+                "parse()"
+            ],
+            "answer": "stringify()",
+            "points": 2
+        },
+        "13": {
+            "question": "What will console.log(typeof null) output?",
+            "choices": [
+                "null",
+                "undefined",
+                "object"
+            ],
+            "answer": "object",
+            "points": 1.5
+        },
+        "14": {
+            "question": "Which operator is used to check both of value and type?",
+            "choices": [
+                "=type=",
+                "==",
+                "==="
+            ],
+            "answer": "===",
+            "points": 1
+        },
+        "15": {
+            "question": "If num = 2 , the output of console.log(num==='2') will be____",
+            "choices": [
+                "2",
+                "false",
+                "true"
+            ],
+            "answer": "false",
+            "points": 1.5
+        },
+        "16": {
+            "question": "Which tag used to embed JavaScript?",
+            "choices": [
+                "<script>",
+                "<code>",
+                "<JavaScript>"
+            ],
+            "answer": "<script>",
+            "points": 1
+        },
+        "17": {
+            "question": "What is the output of console.log('4' * 3 + '5')?",
+            "choices": [
+                "125",
+                "17",
+                "4445"
+            ],
+            "answer": "125",
+            "points": 2
+        },
+        "18": {
+            "question": "How can you stop the execution of a setInterval() timer?",
+            "choices": [
+                "by using break;",
+                "by using setInterval.clear()",
+                "by using clearInterval()"
+            ],
+            "answer": "by using clearInterval()",
+            "points": 2
+        },
+        "19": {
+            "question": "What the value of new Set( [1, 2, 1, 3, 4, '2', 5] )?",
+            "choices": [
+                "1, 2, 3, 4, '2', 5",
+                "[1, 2, 3, 4, 5]",
+                "{1, 2, 3, 4, '2', 5}"
+            ],
+            "answer": "{1, 2, 3, 4, '2', 5}",
+            "points": 3
+        },
+        "20": {
+            "question": "What the output of console.log(!!'false')?",
+            "choices": [
+                "true",
+                "false",
+                "Throw an error"
+            ],
+            "answer": "true",
+            "points": 3
+        },
+        "21": {
+            "question": "What is the syntax of the ternary operator in JavaScript?",
+            "choices": [
+                "Condition ? a : b",
+                "Condition : a : b",
+                "Condition => a || b"
+            ],
+            "answer": "Condition ? a : b",
+            "points": 3
+        },
+        "22": {
+            "question": "JavaScript is used to make websites interactive, true or false?",
+            "choices": [
+                "true",
+                "false",
+                null
+            ],
+            "answer": "true",
+            "points": 0.5
+        },
+        "23": {
+            "question": "JavaScript is case-sensitive language, true or false?",
+            "choices": [
+                "true",
+                "false",
+                null
+            ],
+            "answer": "true",
+            "points": 1
+        },
+        "24": {
+            "question": "JavaScript is prototyped-based, true or false?",
+            "choices": [
+                "true",
+                "false",
+                null
+            ],
+            "answer": "true",
+            "points": 1
+        },
+        "25": {
+            "question": "When is better to use switch than use if-else?",
+            "choices": [
+                "When you want to check the condition on several cases",
+                "When there are many if-else statements",
+                "When you are not sure about the possible values of the condition"
+            ],
+            "answer": "When there are many if-else statements",
+            "points": 3
+        },
+        "26": {
+            "question": "To loop through the properties of an object, you use____",
+            "choices": [
+                "for loop",
+                "for/of loop",
+                "for/in loop"
+            ],
+            "answer": "for/in loop",
+            "points": 2
+        },
+        "27": {
+            "question": "which of the following are loops in JavaScript?",
+            "choices": [
+                "for, while, if/else",
+                "while, for/of, for/in",
+                "It's all false"
+            ],
+            "answer": "while, for/of, for/in",
+            "points": 2
+        },
+        "28": {
+            "question": "To loop through the values of an array, you use____",
+            "choices": [
+                "for loop",
+                "for/of loop",
+                "for/in loop"
+            ],
+            "answer": "for/of loop",
+            "points": 2
+        },
+        "29": {
+            "question": "What method is used to compute the milliseconds from 1970/1/1 00:00:00 til today?",
+            "choices": [
+                "getDate()",
+                "getMilliseconds()",
+                "getTime()"
+            ],
+            "answer": "getTime()",
+            "points": 3
+        },
+        "30": {
+            "question": "The method which used to check if the first of the string is a specific charachter?",
+            "choices": [
+                "firstChar()",
+                "charAt()",
+                "startsWith()"
+            ],
+            "answer": "startsWith()",
+            "points": 3
+        },
+        "31": {
+            "question": "What the output of console.log( 'JavaScript'.slice(1,-1) )?",
+            "choices": [
+                "avaScriptJ",
+                "avaScrip",
+                "Throw an error"
+            ],
+            "answer": "avaScrip",
+            "points": 3
+        },
+        "32": {
+            "question": "What the last index of an array which has length = 4?",
+            "choices": [
+                "3",
+                "4",
+                "5"
+            ],
+            "answer": "3",
+            "points": 1
+        },
+        "33": {
+            "question": "The method indexOf() is used with____",
+            "choices": [
+                "strings",
+                "arrays",
+                "both"
+            ],
+            "answer": "both",
+            "points": 1
+        },
+        "34": {
+            "question": "What the meaning of the method chaining in JavaScript?",
+            "choices": [
+                "Calling a method sevral times",
+                "Calling a method after another",
+                "Calling a method after another in on continous line"
+            ],
+            "answer": "Calling a method after another in on continous line",
+            "points": 2
+        },
+        "35": {
+            "question": "What the logical operator of OR in JavaScript?",
+            "choices": [
+                "OR",
+                "||",
+                "!&"
+            ],
+            "answer": "||",
+            "points": 1
+        },
+        "36": {
+            "question": "The syntax of for loop is____",
+            "choices": [
+                "for(initial: limit: increment){}",
+                "for(initial; limit; increment) => {}",
+                "for(initial; limit; increment){}"
+            ],
+            "answer": "for(initial; limit; increment){}",
+            "points": 3
+        },
+        "37": {
+            "question": "What the method that used to delete the first element in an array?",
+            "choices": [
+                "shift()",
+                "unshift()",
+                "pop()"
+            ],
+            "answer": "shift()",
+            "points": 3
+        },
+        "38": {
+            "question": "What the method that used to add an element to the last of an array?",
+            "choices": [
+                "push()",
+                "add()",
+                "insert()"
+            ],
+            "answer": "push()",
+            "points": 2
+        },
+        "39": {
+            "question": "What the use of rest parameters",
+            "choices": [
+                "Expand an array into seperate elements",
+                "Bundles seperate elements into an array",
+                "It's all false"
+            ],
+            "answer": "Bundles seperate elements into an array",
+            "points": 3
+        },
+        "40": {
+            "question": "A function that is passed as an argument to another function",
+            "choices": [
+                "Callback",
+                "Callback hell",
+                "Recursion"
+            ],
+            "answer": "CallBack",
+            "points": 2
+        },
+        "41": {
+            "question": "The difference between map() and forEach()",
+            "choices": [
+                "forEach() returns a new array",
+                "map() returns a new array",
+                "map() is used with objects"
+            ],
+            "answer": "map() returns a new array",
+            "points": 3
+        },
+        "42": {
+            "question": "How to sum the values of an array ?",
+            "choices": [
+                "Using reduce() method",
+                "Using fisher-yates algorithm",
+                "Using for/of loop"
+            ],
+            "answer": "Using reduce() method",
+            "points": 3
+        },
+        "43": {
+            "question": "How to shuffle the elements of an array ?",
+            "choices": [
+                "Using sort() method",
+                "Using fisher-yates algorithm",
+                "Using for/of loop"
+            ],
+            "answer": "Using fisher-yates algorithm",
+            "points": 3
+        },
+        "44": {
+            "question": "How to swap between values of variables?",
+            "choices": [
+                "[a , b] = [b , a]",
+                "a, b = b, a",
+                "a = b & b = a"
+            ],
+            "answer": "[a , b] = [b , a]",
+            "points": 2
+        },
+        "45": {
+            "question": "'this' keyword is refrence to the____",
+            "choices": [
+                "array where 'this' used",
+                "function where 'this' used",
+                "object where 'this' used"
+            ],
+            "answer": "object where 'this' used",
+            "points": 1
+        },
+        "46": {
+            "question": "super keyword is refrence to the____",
+            "choices": [
+                "first object",
+                "parent of the object",
+                "child of the object"
+            ],
+            "answer": "parent of the object",
+            "points": 1
+        },
+        "47": {
+            "question": "sort((a, b) => a.localeCompare(b)) is used to____",
+            "choices": [
+                "sort an array of string ascading",
+                "sort an array of string descadng",
+                "sort an array of numbers ascading"
+            ],
+            "answer": "sort an array of string ascading",
+            "points": 3
+        },
+        "48": {
+            "question": "Which method used to get the year of a date",
+            "choices": [
+                "getYear()",
+                "getFullYear()",
+                "getYearOfDate()"
+            ],
+            "answer": "getFullYear()",
+            "points": 2
+        },
+        "49": {
+            "question": "Which of the following is used to replay a code block after specific time",
+            "choices": [
+                "setTimer()",
+                "setInterval()",
+                "setTimeout()"
+            ],
+            "answer": "setInterval()",
+            "points": 2
+        },
+        "50": {
+            "question": "Errors can be handled with____blocks",
+            "choices": [
+                "async/await/then",
+                "switch/case/default",
+                "try/catch/finally"
+            ],
+            "answer": "try/catch/finally",
+            "points": 3
+        },
+        "51": {
+            "question": "____is a function-scoped",
+            "choices": [
+                "let",
+                "var",
+                "const"
+            ],
+            "answer": "var",
+            "points": 2
+        },
+        "52": {
+            "question": "Which of these is used to declare variables that won't be reassigned?",
+            "choices": [
+                "let",
+                "var",
+                "const"
+            ],
+            "answer": "const",
+            "points": 3
+        },
+        "53": {
+            "question": "How can you create a function in JavaScript?",
+            "choices": [
+                "function(){}",
+                "const function = () => {}",
+                "It's all true"
+            ],
+            "answer": "const function = () => {}",
+            "points": 2
+        },
+        "54": {
+            "question": "Arrow functions have their own 'this' value, true or false?",
+            "choices": [
+                "true",
+                "false",
+                null
+            ],
+            "answer": "false",
+            "points": 1
+        },
+        "55": {
+            "question": "How do you add event to a DOM element?",
+            "choices": [
+                "element.addEventListener('event-name', function())",
+                "element.addEventListener('event-name', () => {})",
+                "It's all false"
+            ],
+            "answer": "element.addEventListener('event-name', () => {})",
+            "points": 3
+        },
+        "56": {
+            "question": "The promise is representing the eventual completion, true or false?",
+            "choices": [
+                "true",
+                "false",
+                null
+            ],
+            "answer": "true",
+            "points": 1
+        }
+    }
+}

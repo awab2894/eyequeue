@@ -1,0 +1,115 @@
+.header{
+    position: relative;;
+    background: linear-gradient(-90deg, #1d1d1f, #1d1d1f);
+    height: 90px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0px 20% 0 25px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+.header .logo{
+    background: linear-gradient(-90deg, #fff1, #2f2f3f01);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    padding: 0 10px 0 70px;
+}
+.header .logo h1{
+    transition: 0.5s;
+}
+.header .logo .logoImg{
+    padding: 3px;
+    width: 70px;
+    margin-right: 13px;
+    transition: 0.7s;
+}
+.header .logo .logoImg:hover{
+    transform: rotate(-25deg);
+    transition: 0.15s;
+}
+
+
+.header #tabs{
+    width: 110px;
+    height: 30px;
+    display: flex;
+    gap: 10px
+}
+.header #tabs img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    height: 90%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+.header #tabs div{
+    position: relative;
+    height: 100%;
+    width: 40%;
+}
+.header #tabs #homeTab:hover img{
+    height: 100%;
+}
+.header #tabs #testsTab:hover img{
+    height: 100%;
+}
+.header #tabs #homeTab:active img{
+    height: 95%;
+}
+.header #tabs #testsTab:active img{
+    height: 95%;
+}
+
+@media(min-width: 500px){
+    .header .logo h1:hover{
+        letter-spacing: 5px;
+        transition: 0.3s;
+    }
+}
+@media(max-width: 600px){
+    .header{
+    padding-right: 10%;
+    }
+}
+@media(max-width: 500px){
+    .header .logo h1:hover{
+        letter-spacing: 5px;
+        font-size: 20px;
+        transition: 0.3s;
+    }
+    .header{
+    padding-right: 0px;
+    }
+}
+@media(max-width: 430px){
+    .header #tabs{
+        width: 44px;
+    }
+    .header #tabs #testsTab{
+        display: none;
+    }
+    .header #tabs div{
+        width: 100%;
+    }
+    .header{
+    padding-right: 25px;
+    }
+}
+@media(max-width: 390px){
+    .header{
+    padding-right: 10px;
+    }
+}
+@media(max-width: 350px){
+    .header{
+    padding-right: 0px;
+    }
+}

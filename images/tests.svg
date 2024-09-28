@@ -1,0 +1,30 @@
+<svg viewBox="32.18585611720149 20.47 223.6851360941233 247.05999999999997" xmlns="http://www.w3.org/2000/svg"
+ width="2113" height="2500">
+    
+<path 
+    d="M0 0 l200 0 l0 250 l-200 0 l0 -250"
+    fill="url(#SVG1)"/>
+
+<path 
+    d="M0 45 l225 0 l0 250 l-225 0 l0 -250"
+    fill="url(#SVG2)" stroke="#000"/>
+
+<path 
+    d="M0 70 l250 0 l0 250 l-250 0 l0 -250"
+    fill="url(#SVG3)" stroke="#000"/>
+
+
+<linearGradient id="SVG1">
+	<stop  offset="0" style="stop-color:#999"/>
+	<stop  offset="1" style="stop-color:#ddd"/>
+</linearGradient>
+<linearGradient id="SVG2">
+	<stop  offset="0" style="stop-color:#ddf"/>
+	<stop  offset="1" style="stop-color:#fff"/>
+</linearGradient>
+<linearGradient id="SVG3">
+	<stop  offset="0" style="stop-color:#05dd"/>
+	<stop  offset="1" style="stop-color:#09fc"/>
+</linearGradient>
+
+</svg>

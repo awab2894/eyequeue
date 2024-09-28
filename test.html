@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/HeaderStyle.css">
+  <link rel="stylesheet" href="styles/SideStyle.css">
+  <link href="styles/bootstrap.css" rel="stylesheet">
+
+  <link rel="icon" href="images/logo.svg">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EyeQueue offers You a collection of tests in various programming languages. Assess your level, enhance your skills, increase your knowledage and have a fun, don't waste a moment start now.">
+  <meta name="keywords" content="IQ,IQ?,iq?,iq,eyegueue,eyegueue?,EyeQueue,EyeQueue?,Eyequeue,Eyequeue?,eyeQueue,eyeQueue?EYEQUEUE,EYEQUEUE?Iq,Iq?,iQ,iQ?,quiz,Quiz,queston,Question,questions,Questions,test,tests,Test,Tests,programming,Programming,programming language,programming language,Programming languages,Programming languages,knowledge,skill,skills,level,increase,enhance,improve,assess,select the right answer,true or false,quick,">
+  <meta name="author" content="Awab Mohamed">
+
+  <title>EyeQueue</title>
+</head>
+
+<body style="overflow-y: hidden;">
+
+  <div id="header" class="header  position-fixed top-0 w-100">
+    <div class="logo">
+      <img src="images/logo.svg" alt="Q?" class="logoImg" onclick="goHome()">
+      <h1 class="LogoName text-light" onclick="goHome()"><span class="text-primary">Eye</span>Queue</h1>
+    </div>
+    <div id="burgerMenu" title="Show tests">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <div id="tabs">
+      <div id="homeTab" class="btn" onclick="goHome()" title="Home">
+        <img src="images/home.svg" alt="HOME">
+      </div>
+      <div id="testsTab" class="btn" title="Tests">
+        <img src="images/tests.svg" alt="TESTS">
+      </div>
+    </div>
+  </div>
+
+  <section id="home">
+    <div class="homeTitle display-flex"><h1 class="LogoName text-light"><span class="text-primary">Eye</span>Queue?</h1>
+    </div>
+    <div class="about bg-dark border-secondary border-2 form-control mb-3 mt-3 pt-4 pb-5">
+      <code class="text-secondary display-block text-3 h6">
+        Welcome to <span class="text-primary h5">Eye<span class="text-info">Queue</span></span>.
+        EyeQueue offers <span class="text-primary">You</span> a collection of <span class="text-info">tests</span> in various programming languages. <span class="text-primary">You</span> can assess your <span class="text-primary">level</span> through a series of enjoyable <span class="text-info">questions</span> that aim to enhance your <span class="text-primary">skills</span> and increase your <span class="text-primary">knowledge</span> of <span class="text-info">programming languages</span>.
+      </code>
+      <hr class="text-secondary">
+      <code class="about-lg text-secondary display-block text-3 h6">
+        <span class="text-primary">You</span> can start a <span class="text-info">test</span> by selecting it from the <span class="text-primary">list</span> on the <span class="text-info">left</span>, so what are You waiting for, let's <span class="text-info">take</span> the <span class="text-primary">dare</span> <span class="text-info h5">now!</span>.
+      </code>
+      <code class="about-sm text-secondary display-block text-3 h6">
+        <span class="text-primary">You</span> can start a <span class="text-info">test</span> by pressing the <span class="text-primary">accordion button</span> on the <span class="text-info">left-top</span> of the <span class="text-primary">page</span> then select a test from the <span class="text-primary">list</span> on the <span class="text-info">left</span>, so what are You waiting for, let's <span class="text-info">take</span> the <span class="text-primary">dare</span> <span class="text-info h5">now!</span>.
+      </code>
+    </div>
+  </section>
+
+  <div id="side" class="bg-dark">
+    <div class="sideGroup">
+      <div class="title">
+        <h3 title="Show all tests">Tests</h3>
+      </div>
+      <ul class="items">
+        <li class="item" title="load HTML test" onclick="test('html');">HTML</li>
+        <li class="item" title="load CSS test" onclick="test('css');">CSS</li>
+        <li class="item" title="load JavaScript test" onclick="test('js');">JavaScript</li>
+        <li class="item" title="load Python test" onclick="test('py');">Python</li>
+        <li class="item" title="load C test" onclick="test('c');">C</li>
+        <li class="item" title="load C++ test" onclick="test('cpp');">C++</li>
+        <li class="item" title="load PHP test" onclick="test('php');">PHP</li>
+        <li class="item" title="load Java test" onclick="test('java');">Java</li>
+        <li class="item" title="load MySQL test" onclick="test('mysql');">SQL</li>
+        <li class="item" title="load Ruby test" onclick="test('ruby');">Ruby</li>
+      </ul>
+    </div>
+  </div>
+  <section id="main"></section>
+  
+<script src="scripts/quiz.js"></script>
+<script src="scripts/sideBarScript.js"></script>
+<script src="scripts/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

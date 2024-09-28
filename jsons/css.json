@@ -1,0 +1,172 @@
+{
+    "title": "CSS",
+
+"q":{
+  "1": {
+    "question": "What does CSS stand for?",
+    "choices": ["Cascading Style Sheets", "Colorful Style Sheets", "Computer Style Sheets"],
+    "answer": "Cascading Style Sheets",
+    "points": 1
+  },
+  "2": {
+    "question": "Which HTML attribute is used to define inline styles?",
+    "choices": ["style", "class", "styles"],
+    "answer": "style",
+    "points": 1
+  },
+  "3": {
+    "question": "Which property is used to change the background color?",
+    "choices": ["background-color", "bgcolor", "color"],
+    "answer": "background-color",
+    "points": 1
+  },
+  "4": {
+    "question": "How do you add a background color for all <h1> elements?",
+    "choices": ["(h1 {background-color: #FFFFFF;})", "(h1.all {background-color: #FFFFFF;})", "(all.h1 {background-color: #FFFFFF;})"],
+    "answer": "(h1 {background-color: #FFFFFF;})",
+    "points": 2
+  },
+  "5": {
+    "question": "Which property is used to change the font of an element?",
+    "choices": ["font-family", "font-style", "font-weight"],
+    "answer": "font-family",
+    "points": 2
+  },
+  "6": {
+    "question": "How do you make text bold?",
+    "choices": ["font-weight: bold;", "font-style: bold;", "font-family: bold;"],
+    "answer": "font-weight: bold;",
+    "points": 1
+  },
+  "7": {
+    "question": "Which property is used to change the text color of an element?",
+    "choices": ["color", "text-color", "font-color"],
+    "answer": "color",
+    "points": 1
+  },
+  "8": {
+    "question": "How do you center text in CSS?",
+    "choices": ["text-align: center;", "align: center;", "text-center: true;"],
+    "answer": "text-align: center;",
+    "points": 1
+  },
+  "9": {
+    "question": "Which property is used to change the left margin of an element?",
+    "choices": ["margin-left", "padding-left", "margin"],
+    "answer": "margin-left",
+    "points": 1
+  },
+  "10": {
+    "question": "How do you make each word in a text start with a capital letter?",
+    "choices": ["text-transform: capitalize;", "text-style: capitalize;", "transform: capitalize;"],
+    "answer": "text-transform: capitalize;",
+    "points": 2
+  },
+  "11": {
+    "question": "Which CSS property controls the text size?",
+    "choices": ["font-size", "text-size", "font-style"],
+    "answer": "font-size",
+    "points": 1
+  },
+  "12": {
+    "question": "How do you display a border like this: The top border = 10 pixels, the bottom border = 5 pixels, the left border = 20 pixels, and the right border = 1pixel?",
+    "choices": ["border-width: 10px 1px 5px 20px;", "border-width: 10px 5px 20px 1px;", "border-width: 10px 5px 1px 20px;"],
+    "answer": "border-width: 10px 1px 5px 20px;",
+    "points": 3
+  },
+  "13": {
+    "question": "How do you make a list that lists its items with squares?",
+    "choices": ["list-style-type: square;", "list-type: square;", "list: square;"],
+    "answer": "list-style-type: square;",
+    "points": 1
+  },
+  "14": {
+    "question": "How do you select an element with id 'demo'?",
+    "choices": ["#demo", ".demo", "demo"],
+    "answer": "#demo",
+    "points": 1
+  },
+  "15": {
+    "question": "How do you select elements with class name 'test'?",
+    "choices": [".test", "#test", "test"],
+    "answer": ".test",
+    "points": 1
+  },
+  "16": {
+    "question": "Which property is used to change the spacing between letters?",
+    "choices": ["letter-spacing", "spacing", "font-spacing"],
+    "answer": "letter-spacing",
+    "points": 2
+  },
+  "17": {
+    "question": "Which property is used to change the spacing between lines of text?",
+    "choices": ["line-height", "spacing", "line-spacing"],
+    "answer": "line-height",
+    "points": 1
+  },
+  "18": {
+    "question": "How do you make a border rounded?",
+    "choices": ["border-radius", "border-round", "corner-radius"],
+    "answer": "border-radius",
+    "points": 3
+  },
+  "19": {
+    "question": "Which property is used to change the style of the list item marker?",
+    "choices": ["list-style-type", "marker-style", "item-marker"],
+    "answer": "list-style-type",
+    "points": 1
+  },
+  "20": {
+    "question": "Which property is used to set the space between the content and the border of an element?",
+    "choices": ["padding", "margin", "border-spacing"],
+    "answer": "padding",
+    "points": 1
+  },
+  "21": {
+    "question": "How do you make a text underline?",
+    "choices": ["text-decoration: underline;", "text-style: underline;", "text-decoration-line: underline;"],
+    "answer": "text-decoration: underline;",
+    "points": 1
+  },
+  "22": {
+    "question": "How do you change the text alignment of an element?",
+    "choices": ["text-align", "align", "text-align-center"],
+    "answer": "text-align",
+    "points": 2
+  },
+  "23": {
+    "question": "How do you change the font of an element?",
+    "choices": ["font-family", "font-style", "font-size"],
+    "answer": "font-family",
+    "points": 1
+  },
+  "24": {
+    "question": "How do you make text italic in CSS?",
+    "choices": ["font-style: italic;", "font-weight: italic;", "font-family: italic;"],
+    "answer": "font-style: italic;",
+    "points": 1
+  },
+  "25": {
+    "question": "Which property is used to change the right padding of an element?",
+    "choices": ["margin-right", "padding-right", "margin"],
+    "answer": "padding-right",
+    "points": 1
+  },
+  "26": {
+    "question": "How do you increase the spacing between elements?",
+    "choices": ["margin", "padding", "border-spacing"],
+    "answer": "margin",
+    "points": 1
+  },
+  "27": {
+    "question": "How do you change the width of an element?",
+    "choices": ["width", "height", "size"],
+    "answer": "width",
+    "points": 1
+  },
+  "28": {
+    "question": "How do you change the height of an element?",
+    "choices": ["height", "width", "size"],
+    "answer": "height",
+    "points": 1
+  }}}
