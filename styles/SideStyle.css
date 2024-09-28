@@ -1,6 +1,4 @@
-body{
-    scroll-behavior: unset;
-}
+
 #side {
     position: fixed;
     left: 0;
